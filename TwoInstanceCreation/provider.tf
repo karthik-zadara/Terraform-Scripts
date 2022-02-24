@@ -4,7 +4,7 @@ provider "aws" {
     access_key = "${var.access_key}"
     secret_key = "${var.secret_key}"
     endpoints {
-        ec2 = "${var.ec2}"
+        ec2 = "${var.cluster_ip}"
         }
     insecure = "true"
     skip_metadata_api_check = true
