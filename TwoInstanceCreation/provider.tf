@@ -4,7 +4,7 @@ provider "aws" {
     access_key = "${var.access_key}"
     secret_key = "${var.secret_key}"
     endpoints {
-        ec2 = "https://172.16.10.1/api/v2/ec2"
+        ec2 = "${var.ec2}"
         }
     insecure = "true"
     skip_metadata_api_check = true
