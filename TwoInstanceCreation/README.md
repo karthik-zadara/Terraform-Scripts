@@ -9,3 +9,5 @@ Below are the Command Sequence Need to Execute:
 1. terraform init
 2. terraform plan
 3. terraform apply
+
+Note: In Variable.tf file please provide the value as per the system and user_account
